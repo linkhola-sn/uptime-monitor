@@ -17,20 +17,37 @@ sites:
     check: "tcp-ping"
     ipv6: true
 
+# GitHub Pagesで公開するステータスサイトの名前
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: "" # 独自ドメインを使わない場合は空欄
+  baseUrl: /uptime-monitor # リポジトリ名と同じにする（例: repository名が status なら /status）
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime/master/assets/icon.svg
+  name: My Website Status
+  introTitle: サービス稼働状況
+  introMessage: 私たちのウェブサイトのリアルタイム監視状況です。
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# 監視するサイトのリスト
+sites:
+  - name: linkhola
+    url: https://www.linkhola.com/
+    method: GET # 通常はGET。POSTなども可
+    expectedStatusCodes:
+      - 200 # 200以外をダウンとみなす
+    #icon: https://www.google.com/favicon.ico
+
+  - name: LP
+    url: https://earthstory.jp/
+    # 特定のポートを指定する場合
+    # port: 8080 
+    method: GET
+    expectedStatusCodes:
+      - 200
+
+# 監視の間隔（重要）
+# GitHub Actions無料枠(月2000分)を考慮し、最短でも5分、通常は15分〜60分推奨
+schedule: "*/120 * * * *"
