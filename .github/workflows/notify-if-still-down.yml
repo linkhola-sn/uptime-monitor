@@ -23,7 +23,7 @@ jobs:
 
       - name: Check for Down status and Notify
         env:
-          WEBHOOK_URL: ${{ secrets.LARK_WEBHOOK_URL }}
+          WEBHOOK_URL: ${{ secrets.NOTIFICATION_URL }}
         run: |
           if grep -q "Down" README.md; then
             echo "🚨 Down sites detected."
