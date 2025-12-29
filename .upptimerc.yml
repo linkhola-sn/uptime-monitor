@@ -40,14 +40,26 @@ sites:
       - 200 # 200以外をダウンとみなす
     #icon: https://www.google.com/favicon.ico
 
+  - name: CO2計算シミュレーション
+    url: linkhola-carbon.com
+
   - name: EARTHSTORY LP
     url: https://earthstory.jp/
+
+  - name: EARTHSTORYクレジット申請
+    url: https://portal.earthstory.jp/login
 
   - name: EARTHSTORY MP
     url: https://match.earthstory.jp/
 
   - name: こつこつLP
     url: https://co2co2.jp/
+
+  - name: こつこつ管理画面
+    url: biz.earthstory.jp
+    
+  - name: こつこつ自治体
+    url: gift.earthstory.jp
 
   - name: こつこつWeb
     url: https://co2co2me.earthstory.jp/
