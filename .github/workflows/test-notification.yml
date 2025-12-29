@@ -1,0 +1,25 @@
+name: Test Lark Notification
+
+on: 
+  workflow_dispatch: # 手動実行用
+
+jobs:
+  test-notification:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Apprise CLI
+        run: sudo pip install apprise
+
+      - name: Test Notification
+        env:
+          # Settings > Secrets > Actions に登録した名前と同じにする
+          MY_NOTIFY_URL: ${{ secrets.NOTIFICATION_URL }}
+        run: |
+          # 実際にUpptimeが使うのと同じツールで通知テスト
+          echo "Testing notification to: $MY_NOTIFY_URL"
+          
+          # appriseコマンドで通知送信（タイトルとボディを指定）
+          apprise -t "Upptime Test" -b "This is a test alert. Service is Down." "$MY_NOTIFY_URL"
