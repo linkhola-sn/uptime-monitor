@@ -71,5 +71,5 @@ sites:
     url: https://tatatan.base.ec/
 
 # 監視の間隔（重要）
-# GitHub Actions無料枠(月2000分)を考慮し、最短でも5分、通常は15分〜60分推奨
-schedule: "*/120 * * * *"
+# 毎日 UTC 21:00 (= 日本時間 翌06:00) に実行
+schedule: "0 21 * * *"
