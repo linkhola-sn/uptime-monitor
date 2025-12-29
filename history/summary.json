@@ -77,19 +77,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/co2co2me.earthstory.jp.ico",
     "slug": "web",
     "status": "down",
-    "uptime": "89.39%",
-    "uptimeDay": "89.39%",
-    "uptimeWeek": "89.39%",
-    "uptimeMonth": "89.39%",
-    "uptimeYear": "89.39%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
-    "dailyMinutesDown": {
-      "2025-12-29": 0
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "たたたん",
@@ -97,19 +95,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/tatatan.jp.ico",
     "slug": "",
     "status": "up",
-    "uptime": "41.85%",
-    "uptimeDay": "41.85%",
-    "uptimeWeek": "41.85%",
-    "uptimeMonth": "41.85%",
-    "uptimeYear": "41.85%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 1538,
     "timeDay": 1538,
     "timeWeek": 1538,
     "timeMonth": 1538,
     "timeYear": 1538,
-    "dailyMinutesDown": {
-      "2025-12-29": 0
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "たたたん(base)",
