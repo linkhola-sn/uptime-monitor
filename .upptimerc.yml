@@ -41,7 +41,7 @@ sites:
     #icon: https://www.google.com/favicon.ico
 
   - name: CO2計算シミュレーション
-    url: linkhola-carbon.com
+    url: https://linkhola-carbon.com
 
   - name: EARTHSTORY LP
     url: https://earthstory.jp/
@@ -56,10 +56,10 @@ sites:
     url: https://co2co2.jp/
 
   - name: こつこつ管理画面
-    url: biz.earthstory.jp
+    url: https://biz.earthstory.jp
     
   - name: こつこつ自治体
-    url: gift.earthstory.jp
+    url: https://gift.earthstory.jp
 
   - name: こつこつWeb
     url: https://co2co2me.earthstory.jp/
@@ -69,6 +69,9 @@ sites:
     
   - name: たたたん(base)
     url: https://tatatan.base.ec/
+
+  - name: 通知テスト
+    url: https://aaa.jp/
 
 # 監視の間隔（重要）
 # 毎日 UTC 21:00 (= 日本時間 翌06:00) に実行
