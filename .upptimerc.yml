@@ -33,20 +33,30 @@ status-website:
 
 # 監視するサイトのリスト
 sites:
-  - name: linkhola
+  - name: linkhola公式サイト
     url: https://www.linkhola.com/
     method: GET # 通常はGET。POSTなども可
     expectedStatusCodes:
       - 200 # 200以外をダウンとみなす
     #icon: https://www.google.com/favicon.ico
 
-  - name: LP
+  - name: EARTHSTORY LP
     url: https://earthstory.jp/
-    # 特定のポートを指定する場合
-    # port: 8080 
-    method: GET
-    expectedStatusCodes:
-      - 200
+
+  - name: EARTHSTORY MP
+    url: https://match.earthstory.jp/
+
+  - name: こつこつLP
+    url: https://co2co2.jp/
+
+  - name: こつこつWeb
+    url: https://co2co2me.earthstory.jp/
+    
+  - name: たたたん
+    url: https://tatatan.jp/
+    
+  - name: たたたん(base)
+    url: https://tatatan.base.ec/
 
 # 監視の間隔（重要）
 # GitHub Actions無料枠(月2000分)を考慮し、最短でも5分、通常は15分〜60分推奨
