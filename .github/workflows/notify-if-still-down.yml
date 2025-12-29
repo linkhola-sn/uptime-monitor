@@ -5,26 +5,28 @@ on:
     workflows: ["Uptime CI"]
     types:
       - completed
+  workflow_dispatch: # ← これを追加すると「Run workflow」ボタンで手動実行できるようになります
 
 jobs:
   notify-down:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    # 手動実行(workflow_dispatch)の場合は常に実行、自動実行の場合は成功時のみ実行
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          ref: master # 重要: Upptimeが更新しているブランチを指定
+          ref: master # または main (リポジトリの設定に合わせてください)
+
+      - name: Debug File List
+        run: ls -la # デバッグ用：ファイル一覧を表示してREADMEがあるか確認
 
       - name: Check for Down status and Notify
         env:
           WEBHOOK_URL: ${{ secrets.LARK_WEBHOOK_URL }}
         run: |
-          # デバッグ用にファイル一覧を表示してみる（エラー原因の切り分け用）
-          ls -la
-
           if grep -q "Down" README.md; then
-            echo "🚨 Down sites detected. Sending notification..."
+            echo "🚨 Down sites detected."
             curl -X POST -H "Content-Type: application/json" \
             -d '{
               "msg_type": "text",
@@ -34,5 +36,5 @@ jobs:
             }' \
             $WEBHOOK_URL
           else
-            echo "✅ All sites are up. No notification needed."
+            echo "✅ All sites are up or README not found."
           fi
