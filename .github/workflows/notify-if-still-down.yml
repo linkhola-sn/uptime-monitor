@@ -1,0 +1,38 @@
+name: Notify if Still Down
+
+on:
+  workflow_run:
+    workflows: ["Uptime CI"]
+    types:
+      - completed
+
+jobs:
+  notify-down:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }} # CI自体は成功(完了)している場合
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check for Down status and Notify
+        env:
+          # ここには「https://...」から始まるWebhook URLが入っているSecretを指定してください
+          # 最初のステップで作った名前が LARK_WEBHOOK_URL であればそのままでOK
+          WEBHOOK_URL: ${{ secrets.LARK_WEBHOOK_URL }}
+        run: |
+          # README.md の中に " is :red_circle: down" のような表記があるか探す
+          # Upptimeのバージョンにより表記が異なるため、単純に "Down" という単語で検知
+          if grep -q "Down" README.md; then
+            echo "🚨 Down sites detected. Sending notification..."
+            
+            curl -X POST -H "Content-Type: application/json" \
+            -d '{
+              "msg_type": "text",
+              "content": {
+                "text": "⚠️ [継続通知] 以下のサイトがまだダウンしています。\n\n詳細確認: https://github.com/${{ github.repository }}"
+              }
+            }' \
+            $WEBHOOK_URL
+          else
+            echo "✅ All sites are up. No notification needed."
+          fi
