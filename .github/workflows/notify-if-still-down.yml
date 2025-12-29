@@ -5,36 +5,35 @@ on:
     workflows: ["Uptime CI"]
     types:
       - completed
-  workflow_dispatch: # ← これを追加すると「Run workflow」ボタンで手動実行できるようになります
+  workflow_dispatch:
 
 jobs:
   notify-down:
     runs-on: ubuntu-latest
-    # 手動実行(workflow_dispatch)の場合は常に実行、自動実行の場合は成功時のみ実行
     if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          ref: master # または main (リポジトリの設定に合わせてください)
-
-      - name: Debug File List
-        run: ls -la # デバッグ用：ファイル一覧を表示してREADMEがあるか確認
+          ref: master # または main
 
       - name: Check for Down status and Notify
         env:
           WEBHOOK_URL: ${{ secrets.LARK_WEBHOOK_URL }}
         run: |
-          if grep -q "Down" README.md; then
-            echo "🚨 Down sites detected."
+          # 大文字小文字を区別せず(-i) Downを探す
+          if grep -i -q "Down" README.md; then
+            echo "🚨 Down sites detected. Sending notification..."
+            
+            # 【重要】Larkの設定に合わせて 'Upptime' と 'Down' (英語) を含めます
             curl -X POST -H "Content-Type: application/json" \
             -d '{
               "msg_type": "text",
               "content": {
-                "text": "⚠️ [継続通知] 以下のサイトがまだダウンしています。\n\n詳細確認: https://github.com/${{ github.repository }}"
+                "text": "⚠️ [Upptime Alert] 継続通知\n\nいくつかのサイトが現在も Down しています。\n\n詳細確認: https://github.com/${{ github.repository }}"
               }
             }' \
             $WEBHOOK_URL
           else
-            echo "✅ All sites are up or README not found."
+            echo "✅ All sites are up. No notification needed."
           fi
