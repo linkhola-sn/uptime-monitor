@@ -56,9 +56,11 @@ sites:
     url: https://co2co2.jp/
 
   - name: こつこつ管理画面
+    id: co2co2-admin
     url: https://biz.earthstory.jp
     
   - name: こつこつ自治体
+    id: co2co2-itoshima
     url: https://gift.earthstory.jp
 
   - name: こつこつWeb
@@ -71,6 +73,7 @@ sites:
     url: https://tatatan.base.ec/
 
   - name: 通知テスト
+    id: test
     url: https://aaaiii.jp/
 
 # 監視の間隔（重要）
