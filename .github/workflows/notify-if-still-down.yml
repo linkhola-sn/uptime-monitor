@@ -1,11 +1,13 @@
 name: Notify if Still Down
 
 on:
-  workflow_run:
-    workflows: ["Uptime CI"]
-    types:
-      - completed
+  schedule:
+    # 毎日 UTC 21:00 (= 日本時間 翌06:00) に通知チェック
+    - cron: "0 21 * * *"
   workflow_dispatch:
+
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' }}
+    steps:
 
 jobs:
   notify-down:
