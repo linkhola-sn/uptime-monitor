@@ -80,10 +80,6 @@ sites:
     slug: tatatan.base.ec
     url: https://tatatan.base.ec/
 
-  - name: 通知テスト
-    slug: test
-    url: https://aaaiii.jp/
-
 # 監視の間隔（重要）
 # 毎日 UTC 21:00 (= 日本時間 翌06:00) に実行
 schedule: "0 21 * * *"
