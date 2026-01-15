@@ -41,39 +41,47 @@ sites:
     #icon: https://www.google.com/favicon.ico
 
   - name: CO2計算シミュレーション
+    slug: linkhola-carbon.com
     url: https://linkhola-carbon.com
 
   - name: EARTHSTORY LP
+    slug: earthstory.jp
     url: https://earthstory.jp/
 
   - name: EARTHSTORYクレジット申請
+    slug: portal.earthstory.jp
     url: https://portal.earthstory.jp/login
 
   - name: EARTHSTORY MP
+    slug: match.earthstory.jp
     url: https://match.earthstory.jp/
 
   - name: こつこつLP
+    slug: co2co2.jp
     url: https://co2co2.jp/
 
   - name: こつこつ管理画面
-    id: co2co2-admin
+    slug: biz.earthstory.jp
     url: https://biz.earthstory.jp
     
   - name: こつこつ自治体
-    id: co2co2-itoshima
+    slug: gift.earthstory.jp
     url: https://gift.earthstory.jp
 
   - name: こつこつWeb
+    slug: co2co2me.earthstory.jp
     url: https://co2co2me.earthstory.jp/
     
   - name: たたたん
+    slug: tatatan.jp
     url: https://tatatan.jp/
     
   - name: たたたん(base)
+    slug: tatatan.base.ec
     url: https://tatatan.base.ec/
 
   - name: 通知テスト
-    id: test
+    slug: test
     url: https://aaaiii.jp/
 
 # 監視の間隔（重要）
