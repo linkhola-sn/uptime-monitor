@@ -1,41 +1,48 @@
-name: Notify if Still Down
+name: Daily Lark Notification
 
 on:
   schedule:
-    # 毎日 UTC 21:00 (= 日本時間 翌06:00) に通知チェック
+    # 毎日 UTC 21:00 (= 日本時間 翌06:00) に通知
     - cron: "0 21 * * *"
   workflow_dispatch:
 
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' }}
-    steps:
-
 jobs:
-  notify-down:
+  notify-daily:
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          ref: master # または main
 
-      - name: Check for Down status and Notify
+      - name: Send daily status to Lark
         env:
           WEBHOOK_URL: ${{ secrets.LARK_WEBHOOK_URL }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
-          # 大文字小文字を区別せず(-i) Downを探す
-          if grep -i -q "Down" README.md; then
-            echo "🚨 Down sites detected. Sending notification..."
-            
-            # 【重要】Larkの設定に合わせて 'Upptime' と 'Down' (英語) を含めます
-            curl -X POST -H "Content-Type: application/json" \
-            -d '{
-              "msg_type": "text",
-              "content": {
-                "text": "⚠️ [Upptime Alert] 継続通知\n\nいくつかのサイトが現在も Down しています。\n\n詳細確認: https://github.com/${{ github.repository }}"
-              }
-            }' \
-            $WEBHOOK_URL
-          else
-            echo "✅ All sites are up. No notification needed."
-          fi
+          set -euo pipefail
+          python - <<'PY' > /tmp/lark-payload.json
+          import json
+          import os
+          from datetime import datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          data = json.loads(Path("history/summary.json").read_text(encoding="utf-8"))
+          total = len(data)
+          down = [item["name"] for item in data if item.get("status") == "down"]
+          down_count = len(down)
+
+          date_str = datetime.now(ZoneInfo("Asia/Tokyo")).strftime("%Y-%m-%d")
+          if down_count:
+              status_line = f"⚠️ Down {down_count}/{total}: " + ", ".join(down)
+          else:
+              status_line = f"✅ All sites up ({total}/{total})"
+
+          text = (
+              f"🌅 [Upptime] 毎朝サマリー {date_str}\n"
+              f"{status_line}\n"
+              f"詳細: https://github.com/{os.environ['GITHUB_REPOSITORY']}"
+          )
+          payload = {"msg_type": "text", "content": {"text": text}}
+          print(json.dumps(payload, ensure_ascii=False))
+          PY
+          curl -sS -X POST -H "Content-Type: application/json" -d @/tmp/lark-payload.json "$WEBHOOK_URL"
