@@ -4,18 +4,19 @@
     "url": "https://www.linkhola.com/",
     "icon": "https://icons.duckduckgo.com/ip3/www.linkhola.com.ico",
     "slug": "linkhola",
-    "status": "up",
-    "uptime": "99.77%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.77%",
-    "uptimeYear": "99.77%",
+    "status": "down",
+    "uptime": "99.76%",
+    "uptimeDay": "99.84%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.76%",
+    "uptimeYear": "99.76%",
     "time": 1354,
     "timeDay": 1514,
     "timeWeek": 1460,
     "timeMonth": 1354,
     "timeYear": 1354,
     "dailyMinutesDown": {
+      "2026-01-24": 2,
       "2026-01-13": 59,
       "2026-01-11": 29
     }
@@ -25,36 +26,40 @@
     "url": "https://linkhola-carbon.com",
     "icon": "https://icons.duckduckgo.com/ip3/linkhola-carbon.com.ico",
     "slug": "linkhola-carbon.com",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.88%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 930,
     "timeDay": 869,
     "timeWeek": 950,
     "timeMonth": 930,
     "timeYear": 930,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-01-24": 2
+    }
   },
   {
     "name": "EARTHSTORY LP",
     "url": "https://earthstory.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/earthstory.jp.ico",
     "slug": "earthstory.jp",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 1403,
     "timeDay": 930,
     "timeWeek": 1741,
     "timeMonth": 1403,
     "timeYear": 1403,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-01-24": 1
+    }
   },
   {
     "name": "EARTHSTORYクレジット申請",
@@ -79,18 +84,20 @@
     "url": "https://match.earthstory.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/match.earthstory.jp.ico",
     "slug": "match.earthstory.jp",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 2692,
     "timeDay": 2464,
     "timeWeek": 2514,
     "timeMonth": 2692,
     "timeYear": 2692,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-01-24": 1
+    }
   },
   {
     "name": "こつこつLP",
@@ -152,11 +159,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/co2co2me.earthstory.jp.ico",
     "slug": "co2co2me.earthstory.jp",
     "status": "up",
-    "uptime": "99.50%",
+    "uptime": "99.51%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.50%",
-    "uptimeYear": "99.50%",
+    "uptimeMonth": "99.51%",
+    "uptimeYear": "99.51%",
     "time": 799,
     "timeDay": 720,
     "timeWeek": 846,
@@ -171,9 +178,9 @@
     "url": "https://tatatan.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/tatatan.jp.ico",
     "slug": "tatatan.jp",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -182,7 +189,9 @@
     "timeWeek": 1597,
     "timeMonth": 1360,
     "timeYear": 1360,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-01-24": 0
+    }
   },
   {
     "name": "たたたん(base)",
