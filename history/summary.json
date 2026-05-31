@@ -4,16 +4,16 @@
     "url": "https://www.linkhola.com/",
     "icon": "https://icons.duckduckgo.com/ip3/www.linkhola.com.ico",
     "slug": "linkhola",
-    "status": "up",
+    "status": "down",
     "uptime": "97.93%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "98.76%",
+    "uptimeDay": "98.63%",
+    "uptimeWeek": "99.80%",
+    "uptimeMonth": "99.00%",
     "uptimeYear": "97.93%",
     "time": 1407,
     "timeDay": 1711,
     "timeWeek": 1489,
-    "timeMonth": 1445,
+    "timeMonth": 1448,
     "timeYear": 1407,
     "dailyMinutesDown": {
       "2026-01-11": 29,
@@ -44,7 +44,8 @@
       "2026-04-30": 207,
       "2026-05-02": 70,
       "2026-05-04": 99,
-      "2026-05-13": 247
+      "2026-05-13": 247,
+      "2026-05-31": 20
     }
   },
   {
@@ -52,16 +53,16 @@
     "url": "https://linkhola-carbon.com",
     "icon": "https://icons.duckduckgo.com/ip3/linkhola-carbon.com.ico",
     "slug": "linkhola-carbon.com",
-    "status": "up",
+    "status": "down",
     "uptime": "97.68%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "98.77%",
+    "uptimeDay": "98.97%",
+    "uptimeWeek": "99.85%",
+    "uptimeMonth": "99.03%",
     "uptimeYear": "97.68%",
     "time": 1282,
     "timeDay": 1530,
     "timeWeek": 1357,
-    "timeMonth": 1453,
+    "timeMonth": 1476,
     "timeYear": 1282,
     "dailyMinutesDown": {
       "2026-01-24": 22,
@@ -93,7 +94,8 @@
       "2026-04-30": 206,
       "2026-05-02": 70,
       "2026-05-04": 98,
-      "2026-05-13": 242
+      "2026-05-13": 242,
+      "2026-05-31": 15
     }
   },
   {
@@ -101,16 +103,16 @@
     "url": "https://earthstory.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/earthstory.jp.ico",
     "slug": "earthstory.jp",
-    "status": "up",
+    "status": "down",
     "uptime": "97.79%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "98.79%",
+    "uptimeDay": "99.31%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.05%",
     "uptimeYear": "97.79%",
     "time": 1184,
     "timeDay": 1192,
     "timeWeek": 1061,
-    "timeMonth": 1097,
+    "timeMonth": 1110,
     "timeYear": 1184,
     "dailyMinutesDown": {
       "2026-01-24": 22,
@@ -137,7 +139,8 @@
       "2026-04-30": 206,
       "2026-05-02": 70,
       "2026-05-04": 98,
-      "2026-05-13": 238
+      "2026-05-13": 238,
+      "2026-05-31": 10
     }
   },
   {
@@ -163,16 +166,16 @@
     "url": "https://match.earthstory.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/match.earthstory.jp.ico",
     "slug": "match.earthstory.jp",
-    "status": "up",
+    "status": "down",
     "uptime": "97.80%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "98.80%",
+    "uptimeDay": "99.64%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.08%",
     "uptimeYear": "97.80%",
     "time": 2659,
     "timeDay": 2829,
     "timeWeek": 2725,
-    "timeMonth": 2643,
+    "timeMonth": 2647,
     "timeYear": 2659,
     "dailyMinutesDown": {
       "2026-01-24": 21,
@@ -199,7 +202,8 @@
       "2026-04-30": 205,
       "2026-05-02": 69,
       "2026-05-04": 97,
-      "2026-05-13": 233
+      "2026-05-13": 233,
+      "2026-05-31": 5
     }
   },
   {
@@ -262,11 +266,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/co2co2me.earthstory.jp.ico",
     "slug": "co2co2me.earthstory.jp",
     "status": "up",
-    "uptime": "99.16%",
+    "uptime": "99.17%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.16%",
+    "uptimeYear": "99.17%",
     "time": 1082,
     "timeDay": 1703,
     "timeWeek": 1543,
@@ -284,16 +288,16 @@
     "url": "https://tatatan.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/tatatan.jp.ico",
     "slug": "tatatan.jp",
-    "status": "up",
-    "uptime": "95.06%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "95.07%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "98.81%",
-    "uptimeYear": "95.06%",
+    "uptimeMonth": "99.10%",
+    "uptimeYear": "95.07%",
     "time": 1315,
     "timeDay": 1536,
     "timeWeek": 1498,
-    "timeMonth": 1394,
+    "timeMonth": 1415,
     "timeYear": 1315,
     "dailyMinutesDown": {
       "2026-01-24": 21,
@@ -328,7 +332,8 @@
       "2026-04-30": 205,
       "2026-05-02": 69,
       "2026-05-04": 97,
-      "2026-05-13": 228
+      "2026-05-13": 228,
+      "2026-05-31": 0
     }
   },
   {
