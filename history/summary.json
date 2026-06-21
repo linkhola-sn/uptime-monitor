@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.linkhola.com.ico",
     "slug": "linkhola",
     "status": "down",
-    "uptime": "97.29%",
-    "uptimeDay": "92.12%",
-    "uptimeWeek": "88.91%",
-    "uptimeMonth": "94.84%",
-    "uptimeYear": "97.29%",
+    "uptime": "97.25%",
+    "uptimeDay": "86.09%",
+    "uptimeWeek": "88.04%",
+    "uptimeMonth": "94.64%",
+    "uptimeYear": "97.25%",
     "time": 1412,
     "timeDay": 1226,
     "timeWeek": 1463,
@@ -58,7 +58,7 @@
       "2026-06-17": 184,
       "2026-06-18": 456,
       "2026-06-20": 87,
-      "2026-06-21": 27
+      "2026-06-21": 114
     }
   },
   {
@@ -67,16 +67,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/linkhola-carbon.com.ico",
     "slug": "linkhola-carbon.com",
     "status": "down",
-    "uptime": "97.16%",
-    "uptimeDay": "93.13%",
-    "uptimeWeek": "92.06%",
-    "uptimeMonth": "95.67%",
-    "uptimeYear": "97.16%",
-    "time": 1268,
+    "uptime": "97.12%",
+    "uptimeDay": "87.10%",
+    "uptimeWeek": "91.20%",
+    "uptimeMonth": "95.47%",
+    "uptimeYear": "97.12%",
+    "time": 1266,
     "timeDay": 1137,
     "timeWeek": 998,
     "timeMonth": 1212,
-    "timeYear": 1268,
+    "timeYear": 1266,
     "dailyMinutesDown": {
       "2026-01-24": 22,
       "2026-01-25": 24,
@@ -121,7 +121,7 @@
       "2026-06-17": 179,
       "2026-06-18": 167,
       "2026-06-20": 77,
-      "2026-06-21": 22
+      "2026-06-21": 109
     }
   },
   {
@@ -129,17 +129,17 @@
     "url": "https://earthstory.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/earthstory.jp.ico",
     "slug": "earthstory.jp",
-    "status": "down",
-    "uptime": "97.16%",
-    "uptimeDay": "94.13%",
-    "uptimeWeek": "89.62%",
-    "uptimeMonth": "95.20%",
-    "uptimeYear": "97.16%",
-    "time": 1171,
-    "timeDay": 943,
-    "timeWeek": 1036,
-    "timeMonth": 1096,
-    "timeYear": 1171,
+    "status": "up",
+    "uptime": "97.12%",
+    "uptimeDay": "88.10%",
+    "uptimeWeek": "88.76%",
+    "uptimeMonth": "95.01%",
+    "uptimeYear": "97.12%",
+    "time": 1170,
+    "timeDay": 967,
+    "timeWeek": 1035,
+    "timeMonth": 1094,
+    "timeYear": 1170,
     "dailyMinutesDown": {
       "2026-01-24": 22,
       "2026-01-25": 24,
@@ -179,7 +179,7 @@
       "2026-06-17": 174,
       "2026-06-18": 441,
       "2026-06-20": 67,
-      "2026-06-21": 17
+      "2026-06-21": 104
     }
   },
   {
@@ -208,17 +208,17 @@
     "url": "https://match.earthstory.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/match.earthstory.jp.ico",
     "slug": "match.earthstory.jp",
-    "status": "down",
-    "uptime": "97.21%",
-    "uptimeDay": "96.01%",
-    "uptimeWeek": "90.13%",
-    "uptimeMonth": "95.42%",
-    "uptimeYear": "97.21%",
-    "time": 2702,
-    "timeDay": 2718,
-    "timeWeek": 2870,
-    "timeMonth": 2873,
-    "timeYear": 2702,
+    "status": "up",
+    "uptime": "97.17%",
+    "uptimeDay": "89.98%",
+    "uptimeWeek": "89.27%",
+    "uptimeMonth": "95.22%",
+    "uptimeYear": "97.17%",
+    "time": 2704,
+    "timeDay": 2834,
+    "timeWeek": 2884,
+    "timeMonth": 2877,
+    "timeYear": 2704,
     "dailyMinutesDown": {
       "2026-01-24": 21,
       "2026-01-25": 23,
@@ -258,7 +258,7 @@
       "2026-06-17": 169,
       "2026-06-18": 433,
       "2026-06-20": 52,
-      "2026-06-21": 5
+      "2026-06-21": 92
     }
   },
   {
@@ -345,17 +345,17 @@
     "url": "https://tatatan.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/tatatan.jp.ico",
     "slug": "tatatan.jp",
-    "status": "down",
-    "uptime": "95.00%",
-    "uptimeDay": "96.68%",
-    "uptimeWeek": "93.14%",
-    "uptimeMonth": "96.21%",
-    "uptimeYear": "95.00%",
-    "time": 1456,
-    "timeDay": 2507,
-    "timeWeek": 2775,
-    "timeMonth": 1999,
-    "timeYear": 1456,
+    "status": "up",
+    "uptime": "94.96%",
+    "uptimeDay": "90.64%",
+    "uptimeWeek": "92.28%",
+    "uptimeMonth": "96.01%",
+    "uptimeYear": "94.96%",
+    "time": 1462,
+    "timeDay": 2573,
+    "timeWeek": 2770,
+    "timeMonth": 2015,
+    "timeYear": 1462,
     "dailyMinutesDown": {
       "2026-01-24": 21,
       "2026-01-25": 23,
@@ -403,7 +403,7 @@
       "2026-06-17": 165,
       "2026-06-18": 153,
       "2026-06-20": 48,
-      "2026-06-21": 0
+      "2026-06-21": 87
     }
   },
   {
