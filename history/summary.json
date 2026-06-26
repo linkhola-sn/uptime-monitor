@@ -4,12 +4,12 @@
     "url": "https://www.linkhola.com/",
     "icon": "https://icons.duckduckgo.com/ip3/www.linkhola.com.ico",
     "slug": "linkhola",
-    "status": "up",
-    "uptime": "96.97%",
-    "uptimeDay": "92.14%",
-    "uptimeWeek": "89.02%",
-    "uptimeMonth": "92.57%",
-    "uptimeYear": "96.97%",
+    "status": "down",
+    "uptime": "96.96%",
+    "uptimeDay": "90.77%",
+    "uptimeWeek": "88.82%",
+    "uptimeMonth": "92.53%",
+    "uptimeYear": "96.96%",
     "time": 1406,
     "timeDay": 1149,
     "timeWeek": 1302,
@@ -62,7 +62,8 @@
       "2026-06-22": 340,
       "2026-06-23": 293,
       "2026-06-24": 68,
-      "2026-06-25": 113
+      "2026-06-25": 113,
+      "2026-06-26": 20
     }
   },
   {
@@ -70,11 +71,11 @@
     "url": "https://linkhola-carbon.com",
     "icon": "https://icons.duckduckgo.com/ip3/linkhola-carbon.com.ico",
     "slug": "linkhola-carbon.com",
-    "status": "up",
+    "status": "down",
     "uptime": "96.82%",
-    "uptimeDay": "92.48%",
-    "uptimeWeek": "89.45%",
-    "uptimeMonth": "93.46%",
+    "uptimeDay": "91.44%",
+    "uptimeWeek": "89.30%",
+    "uptimeMonth": "93.43%",
     "uptimeYear": "96.82%",
     "time": 1259,
     "timeDay": 721,
@@ -129,7 +130,8 @@
       "2026-06-22": 330,
       "2026-06-23": 288,
       "2026-06-24": 63,
-      "2026-06-25": 108
+      "2026-06-25": 108,
+      "2026-06-26": 15
     }
   },
   {
@@ -137,11 +139,11 @@
     "url": "https://earthstory.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/earthstory.jp.ico",
     "slug": "earthstory.jp",
-    "status": "up",
+    "status": "down",
     "uptime": "96.84%",
-    "uptimeDay": "92.81%",
-    "uptimeWeek": "89.88%",
-    "uptimeMonth": "93.07%",
+    "uptimeDay": "92.11%",
+    "uptimeWeek": "89.78%",
+    "uptimeMonth": "93.05%",
     "uptimeYear": "96.84%",
     "time": 1158,
     "timeDay": 788,
@@ -191,7 +193,8 @@
       "2026-06-22": 323,
       "2026-06-23": 280,
       "2026-06-24": 58,
-      "2026-06-25": 103
+      "2026-06-25": 103,
+      "2026-06-26": 10
     }
   },
   {
@@ -220,11 +223,11 @@
     "url": "https://match.earthstory.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/match.earthstory.jp.ico",
     "slug": "match.earthstory.jp",
-    "status": "up",
+    "status": "down",
     "uptime": "96.90%",
-    "uptimeDay": "93.15%",
-    "uptimeWeek": "90.43%",
-    "uptimeMonth": "93.35%",
+    "uptimeDay": "92.78%",
+    "uptimeWeek": "90.38%",
+    "uptimeMonth": "93.34%",
     "uptimeYear": "96.90%",
     "time": 2695,
     "timeDay": 2630,
@@ -274,7 +277,8 @@
       "2026-06-22": 318,
       "2026-06-23": 270,
       "2026-06-24": 54,
-      "2026-06-25": 99
+      "2026-06-25": 99,
+      "2026-06-26": 5
     }
   },
   {
@@ -361,9 +365,9 @@
     "url": "https://tatatan.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/tatatan.jp.ico",
     "slug": "tatatan.jp",
-    "status": "up",
+    "status": "down",
     "uptime": "94.76%",
-    "uptimeDay": "93.49%",
+    "uptimeDay": "93.47%",
     "uptimeWeek": "90.81%",
     "uptimeMonth": "94.21%",
     "uptimeYear": "94.76%",
@@ -423,7 +427,8 @@
       "2026-06-22": 313,
       "2026-06-23": 262,
       "2026-06-24": 49,
-      "2026-06-25": 94
+      "2026-06-25": 94,
+      "2026-06-26": 0
     }
   },
   {
