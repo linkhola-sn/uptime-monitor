@@ -4,16 +4,16 @@
     "url": "https://www.linkhola.com/",
     "icon": "https://icons.duckduckgo.com/ip3/www.linkhola.com.ico",
     "slug": "linkhola",
-    "status": "up",
+    "status": "down",
     "uptime": "96.01%",
-    "uptimeDay": "95.90%",
-    "uptimeWeek": "89.25%",
-    "uptimeMonth": "90.38%",
+    "uptimeDay": "94.53%",
+    "uptimeWeek": "89.06%",
+    "uptimeMonth": "90.87%",
     "uptimeYear": "96.01%",
     "time": 1380,
     "timeDay": 1189,
     "timeWeek": 1330,
-    "timeMonth": 1278,
+    "timeMonth": 1287,
     "timeYear": 1380,
     "dailyMinutesDown": {
       "2026-01-11": 29,
@@ -87,7 +87,8 @@
       "2026-07-22": 249,
       "2026-07-23": 0,
       "2026-07-24": 257,
-      "2026-07-25": 59
+      "2026-07-25": 59,
+      "2026-07-26": 20
     }
   },
   {
@@ -95,16 +96,16 @@
     "url": "https://linkhola-carbon.com",
     "icon": "https://icons.duckduckgo.com/ip3/linkhola-carbon.com.ico",
     "slug": "linkhola-carbon.com",
-    "status": "up",
+    "status": "down",
     "uptime": "95.84%",
-    "uptimeDay": "96.23%",
-    "uptimeWeek": "89.83%",
-    "uptimeMonth": "90.65%",
+    "uptimeDay": "95.20%",
+    "uptimeWeek": "89.68%",
+    "uptimeMonth": "91.13%",
     "uptimeYear": "95.84%",
     "time": 1307,
     "timeDay": 882,
     "timeWeek": 1228,
-    "timeMonth": 1468,
+    "timeMonth": 1479,
     "timeYear": 1307,
     "dailyMinutesDown": {
       "2026-01-24": 22,
@@ -179,7 +180,8 @@
       "2026-07-22": 234,
       "2026-07-23": 0,
       "2026-07-24": 252,
-      "2026-07-25": 54
+      "2026-07-25": 54,
+      "2026-07-26": 15
     }
   },
   {
@@ -187,16 +189,16 @@
     "url": "https://earthstory.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/earthstory.jp.ico",
     "slug": "earthstory.jp",
-    "status": "up",
-    "uptime": "95.98%",
-    "uptimeDay": "96.57%",
-    "uptimeWeek": "91.97%",
-    "uptimeMonth": "91.47%",
-    "uptimeYear": "95.98%",
+    "status": "down",
+    "uptime": "95.99%",
+    "uptimeDay": "95.87%",
+    "uptimeWeek": "91.88%",
+    "uptimeMonth": "91.95%",
+    "uptimeYear": "95.99%",
     "time": 1200,
     "timeDay": 918,
     "timeWeek": 1265,
-    "timeMonth": 1341,
+    "timeMonth": 1350,
     "timeYear": 1200,
     "dailyMinutesDown": {
       "2026-01-24": 22,
@@ -266,7 +268,8 @@
       "2026-07-22": 221,
       "2026-07-23": 0,
       "2026-07-24": 248,
-      "2026-07-25": 49
+      "2026-07-25": 49,
+      "2026-07-26": 10
     }
   },
   {
@@ -295,16 +298,16 @@
     "url": "https://match.earthstory.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/match.earthstory.jp.ico",
     "slug": "match.earthstory.jp",
-    "status": "up",
-    "uptime": "96.05%",
-    "uptimeDay": "96.90%",
-    "uptimeWeek": "91.09%",
-    "uptimeMonth": "91.59%",
-    "uptimeYear": "96.05%",
+    "status": "down",
+    "uptime": "96.06%",
+    "uptimeDay": "96.54%",
+    "uptimeWeek": "91.04%",
+    "uptimeMonth": "92.07%",
+    "uptimeYear": "96.06%",
     "time": 2750,
     "timeDay": 3685,
     "timeWeek": 3241,
-    "timeMonth": 2934,
+    "timeMonth": 2940,
     "timeYear": 2750,
     "dailyMinutesDown": {
       "2026-01-24": 21,
@@ -373,7 +376,8 @@
       "2026-07-21": 91,
       "2026-07-22": 195,
       "2026-07-24": 243,
-      "2026-07-25": 45
+      "2026-07-25": 45,
+      "2026-07-26": 5
     }
   },
   {
@@ -462,16 +466,16 @@
     "url": "https://tatatan.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/tatatan.jp.ico",
     "slug": "tatatan.jp",
-    "status": "up",
-    "uptime": "94.34%",
-    "uptimeDay": "97.23%",
+    "status": "down",
+    "uptime": "94.35%",
+    "uptimeDay": "97.21%",
     "uptimeWeek": "91.61%",
-    "uptimeMonth": "92.19%",
-    "uptimeYear": "94.34%",
+    "uptimeMonth": "92.68%",
+    "uptimeYear": "94.35%",
     "time": 1807,
     "timeDay": 4331,
     "timeWeek": 2795,
-    "timeMonth": 2852,
+    "timeMonth": 2857,
     "timeYear": 1807,
     "dailyMinutesDown": {
       "2026-01-24": 21,
@@ -548,7 +552,8 @@
       "2026-07-21": 81,
       "2026-07-22": 185,
       "2026-07-24": 238,
-      "2026-07-25": 40
+      "2026-07-25": 40,
+      "2026-07-26": 0
     }
   },
   {
