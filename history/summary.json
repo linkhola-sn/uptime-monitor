@@ -4,19 +4,18 @@
     "url": "https://www.linkhola.com/",
     "icon": "https://icons.duckduckgo.com/ip3/www.linkhola.com.ico",
     "slug": "linkhola",
-    "status": "up",
-    "uptime": "95.78%",
-    "uptimeDay": "91.43%",
-    "uptimeWeek": "88.10%",
-    "uptimeMonth": "90.16%",
-    "uptimeYear": "95.78%",
+    "status": "down",
+    "uptime": "95.80%",
+    "uptimeDay": "93.01%",
+    "uptimeWeek": "87.91%",
+    "uptimeMonth": "90.40%",
+    "uptimeYear": "95.80%",
     "time": 1383,
     "timeDay": 1378,
     "timeWeek": 1400,
-    "timeMonth": 1312,
+    "timeMonth": 1308,
     "timeYear": 1383,
     "dailyMinutesDown": {
-      "2026-01-25": 25,
       "2026-02-05": 79,
       "2026-02-15": 16,
       "2026-02-22": 25,
@@ -90,7 +89,8 @@
       "2026-07-28": 68,
       "2026-07-29": 252,
       "2026-07-30": 320,
-      "2026-07-31": 124
+      "2026-07-31": 124,
+      "2026-08-01": 20
     }
   },
   {
@@ -98,19 +98,18 @@
     "url": "https://linkhola-carbon.com",
     "icon": "https://icons.duckduckgo.com/ip3/linkhola-carbon.com.ico",
     "slug": "linkhola-carbon.com",
-    "status": "up",
-    "uptime": "95.63%",
-    "uptimeDay": "92.10%",
-    "uptimeWeek": "88.68%",
-    "uptimeMonth": "90.44%",
-    "uptimeYear": "95.63%",
+    "status": "down",
+    "uptime": "95.64%",
+    "uptimeDay": "93.68%",
+    "uptimeWeek": "88.53%",
+    "uptimeMonth": "90.69%",
+    "uptimeYear": "95.64%",
     "time": 1290,
     "timeDay": 1109,
     "timeWeek": 987,
-    "timeMonth": 1378,
+    "timeMonth": 1384,
     "timeYear": 1290,
     "dailyMinutesDown": {
-      "2026-02-15": 15,
       "2026-02-19": 27,
       "2026-02-22": 24,
       "2026-02-26": 30,
@@ -185,7 +184,8 @@
       "2026-07-28": 63,
       "2026-07-29": 237,
       "2026-07-30": 315,
-      "2026-07-31": 114
+      "2026-07-31": 114,
+      "2026-08-01": 15
     }
   },
   {
@@ -193,16 +193,16 @@
     "url": "https://earthstory.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/earthstory.jp.ico",
     "slug": "earthstory.jp",
-    "status": "up",
-    "uptime": "95.74%",
-    "uptimeDay": "92.77%",
-    "uptimeWeek": "89.25%",
-    "uptimeMonth": "91.29%",
-    "uptimeYear": "95.74%",
+    "status": "down",
+    "uptime": "95.75%",
+    "uptimeDay": "94.35%",
+    "uptimeWeek": "89.15%",
+    "uptimeMonth": "91.53%",
+    "uptimeYear": "95.75%",
     "time": 1207,
     "timeDay": 1128,
     "timeWeek": 1275,
-    "timeMonth": 1325,
+    "timeMonth": 1332,
     "timeYear": 1207,
     "dailyMinutesDown": {
       "2026-01-24": 22,
@@ -278,7 +278,8 @@
       "2026-07-28": 58,
       "2026-07-29": 224,
       "2026-07-30": 310,
-      "2026-07-31": 104
+      "2026-07-31": 104,
+      "2026-08-01": 10
     }
   },
   {
@@ -307,16 +308,16 @@
     "url": "https://match.earthstory.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/match.earthstory.jp.ico",
     "slug": "match.earthstory.jp",
-    "status": "up",
-    "uptime": "95.83%",
-    "uptimeDay": "93.44%",
-    "uptimeWeek": "89.82%",
-    "uptimeMonth": "91.44%",
-    "uptimeYear": "95.83%",
+    "status": "down",
+    "uptime": "95.84%",
+    "uptimeDay": "95.02%",
+    "uptimeWeek": "89.77%",
+    "uptimeMonth": "91.68%",
+    "uptimeYear": "95.84%",
     "time": 2762,
     "timeDay": 4254,
     "timeWeek": 3032,
-    "timeMonth": 2877,
+    "timeMonth": 2880,
     "timeYear": 2762,
     "dailyMinutesDown": {
       "2026-01-24": 21,
@@ -391,7 +392,8 @@
       "2026-07-28": 54,
       "2026-07-29": 210,
       "2026-07-30": 306,
-      "2026-07-31": 94
+      "2026-07-31": 94,
+      "2026-08-01": 5
     }
   },
   {
@@ -480,16 +482,16 @@
     "url": "https://tatatan.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/tatatan.jp.ico",
     "slug": "tatatan.jp",
-    "status": "up",
-    "uptime": "94.19%",
-    "uptimeDay": "94.10%",
+    "status": "down",
+    "uptime": "94.21%",
+    "uptimeDay": "95.68%",
     "uptimeWeek": "90.39%",
-    "uptimeMonth": "92.06%",
-    "uptimeYear": "94.19%",
+    "uptimeMonth": "92.30%",
+    "uptimeYear": "94.21%",
     "time": 1855,
     "timeDay": 2918,
     "timeWeek": 2860,
-    "timeMonth": 2923,
+    "timeMonth": 2926,
     "timeYear": 1855,
     "dailyMinutesDown": {
       "2026-01-24": 21,
@@ -572,7 +574,8 @@
       "2026-07-28": 49,
       "2026-07-29": 195,
       "2026-07-30": 301,
-      "2026-07-31": 84
+      "2026-07-31": 84,
+      "2026-08-01": 0
     }
   },
   {
